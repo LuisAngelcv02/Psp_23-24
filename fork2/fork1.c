@@ -46,7 +46,7 @@ void main(){
                 waitpid(pid3,&status,0);
                 if(pid3%2!=0){
                 printf("proceso p3 %d\n",getpid());
-                printf("proceso padre p3 es p2: %d\n",getppid());
+                printf("proceso padre p3 es p1: %d\n",getppid());
                 
                 }
                 else{
