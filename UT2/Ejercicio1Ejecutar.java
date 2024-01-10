@@ -13,6 +13,7 @@ public class Ejercicio1Ejecutar {
 		//par.setPriority(Thread.MAX_PRIORITY);
 		par.start();
 		try {
+			//solo me deja usar el join si lo ejecuto de esta manera
 			par.join();
 		} catch (Exception e) {
 			// TODO: handle exception
